@@ -37,6 +37,11 @@ def draw_pentagon(side_length):
         fd(side_length)
         lt(360/5)
 
+def draw_hexagon(side_length):
+    for _ in range(6):
+        fd(side_length)
+        lt(360/6)
+
 
 # place the turtle on the left hand side of your canvas
 penup()
@@ -63,6 +68,12 @@ setpos(-130, 0)
 pendown()
 pencolor("green")
 draw_pentagon(70)
+
+penup()
+setpos(30, 0)
+pendown()
+pencolor("red")
+draw_hexagon(90)
 
 
 # leave the turtle on the screen until the user clicks in the screen
