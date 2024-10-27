@@ -15,6 +15,7 @@ colour to see the turtle name
 
 from turtle import *
 
+speed(0)
 
 # Function to draw a polygon
 
