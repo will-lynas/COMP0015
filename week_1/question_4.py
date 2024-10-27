@@ -37,7 +37,7 @@ pendown()
 pensize(2)
 
 # set the pen colour to a green colour
-pencolor("DarkOliveGreen4")
+pencolor("blue")
 
 # Draw square
 draw_square(50)
