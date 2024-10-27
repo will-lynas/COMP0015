@@ -30,7 +30,7 @@ def draw_square(side_length):
 
 # place the turtle on the left hand side of your canvas
 penup()
-setpos(-225, 0)
+setpos(-300, 0)
 pendown()
 
 # set the pen width
