@@ -45,7 +45,7 @@ def draw_hexagon(side_length):
 
 # place the turtle on the left hand side of your canvas
 penup()
-setpos(-225, 0)
+setpos(-300, 0)
 pendown()
 
 # set the pen width
@@ -58,19 +58,19 @@ pencolor("blue")
 draw_square(50)
 
 penup()
-setpos(-280, 0)
+setpos(-355, 0)
 pendown()
 pencolor("dark sea green")
 draw_triangle(30)
 
 penup()
-setpos(-130, 0)
+setpos(-205, 0)
 pendown()
 pencolor("green")
 draw_pentagon(70)
 
 penup()
-setpos(30, 0)
+setpos(-45, 0)
 pendown()
 pencolor("red")
 draw_hexagon(90)
