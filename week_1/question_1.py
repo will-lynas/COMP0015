@@ -25,7 +25,7 @@ pendown()
 pensize(2)
 
 # set the pen colour to a green colour
-pencolor("dark sea green")
+pencolor("DarkOliveGreen4")
 
 # Draw a square
 forward(50)     # move forward 50 pixels
