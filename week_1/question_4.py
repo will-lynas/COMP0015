@@ -27,6 +27,11 @@ def draw_square(side_length):
         fd(side_length)
         lt(90)
 
+def draw_triangle(side_length):
+    for _ in range(3):
+        fd(side_length)
+        lt(360/3)
+
 
 # place the turtle on the left hand side of your canvas
 penup()
@@ -41,6 +46,12 @@ pencolor("blue")
 
 # Draw square
 draw_square(50)
+
+penup()
+setpos(-280, 0)
+pendown()
+pencolor("dark sea green")
+draw_triangle(30)
 
 
 # leave the turtle on the screen until the user clicks in the screen
