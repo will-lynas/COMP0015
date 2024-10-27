@@ -69,5 +69,21 @@ lt(90)
 fd(110)
 lt(90)
 
+# Square 4
+penup()
+setpos(30, 0)
+pendown()
+
+pencolor("red")
+
+forward(130)
+left(90)
+forward(130)
+lt(90)
+fd(130)
+lt(90)
+fd(130)
+lt(90)
+
 # leave the turtle on the screen until the user clicks in the screen
 exitonclick()
