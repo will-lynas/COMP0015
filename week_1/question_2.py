@@ -16,6 +16,8 @@ colour to see the turtle name
 
 from turtle import *
 
+speed(0)
+
 
 # place the turtle on the left hand side of your canvas
 penup()
