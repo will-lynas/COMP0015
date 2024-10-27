@@ -21,7 +21,7 @@ from turtle import *
 
 def draw_square(side_length):
     
-    for counter in range(4):
+    for _ in range(4):
         fd(side_length)
         lt(90)
 
