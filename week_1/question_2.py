@@ -36,5 +36,38 @@ for counter in range(4):   # repeat 4 times
     forward(50)
     left(90)
 
+# Square 2
+penup()
+setpos(-220, 0)
+pendown()
+
+pencolor("blue")
+
+for counter in range(4):
+    forward(80)
+    left(90)
+
+# Square 3
+penup()
+setpos(-110, 0)
+pendown()
+
+pencolor("green")
+
+for counter in range(4):
+    forward(110)
+    left(90)
+
+# Square 4
+penup()
+setpos(30, 0)
+pendown()
+
+pencolor("red")
+
+for counter in range(4):
+    forward(130)
+    left(90)
+
 # leave the turtle on the screen until the user clicks in the screen
 exitonclick()
