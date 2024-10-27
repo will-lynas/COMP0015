@@ -42,6 +42,27 @@ pencolor("DarkOliveGreen4")
 # Draw square
 draw_square(50)
 
+# Square 2
+penup()
+setpos(-220, 0)
+pendown()
+pencolor("blue")
+draw_square(80)
+
+# Square 3
+penup()
+setpos(-110, 0)
+pendown()
+pencolor("green")
+draw_square(110)
+
+# Square 4
+penup()
+setpos(30, 0)
+pendown()
+pencolor("red")
+draw_square(130)
+
 
 # leave the turtle on the screen until the user clicks in the screen
 exitonclick()
