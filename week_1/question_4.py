@@ -42,6 +42,11 @@ def draw_hexagon(side_length):
         fd(side_length)
         lt(360/6)
 
+def draw_octagon(side_length):
+    for _ in range(8):
+        fd(side_length)
+        lt(360/8)
+
 
 # place the turtle on the left hand side of your canvas
 penup()
@@ -74,6 +79,12 @@ setpos(-45, 0)
 pendown()
 pencolor("red")
 draw_hexagon(90)
+
+penup()
+setpos(170, 0)
+pendown()
+pencolor("pink")
+draw_octagon(105)
 
 
 # leave the turtle on the screen until the user clicks in the screen
